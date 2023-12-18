@@ -1,5 +1,2 @@
 # pipex
-Task -> This project will make you sort data on a stack, with a limited set of instructions, using
-the lowest possible number of actions. To succeed you’ll have to manipulate various
-types of algorithms and choose the most appropriate solution (out of many) for an
-optimized data sorting.
+This project aims to deepen your understanding of the two concepts that you already know: Redirections and Pipes. It is an introductory project for the bigger UNIX projects that will appear later on in the cursus.
