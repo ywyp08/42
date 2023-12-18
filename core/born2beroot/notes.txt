@@ -1,0 +1,29 @@
+BORN2BEROOT
+-----------
+
+- vdi command (/sgoinfree/born2beroot)
+	shasum born2beroot.vdi
+
+- password policy
+	sudo vim /etc/pam.d/common-password
+
+- monitoring script (/usr/local/bin/monitoring.sh)
+	??
+
+- users/groups
+	new user: sudo adduser user_name
+	add to group: sudo usermod -aG evaluating user_name
+	check groups: getent group
+
+- sudo (/var/log)
+	dpkg -l | grep sudo
+	as root: su
+
+- UFW
+	active ports: sudo ufw status numbered
+	add port: sudo ufw allow 8080
+	delete port: sudo ufw delete 2
+
+- SSH
+	sudo service ssh status
+	ssh sspilka@127.0.0.1 -p 4242
