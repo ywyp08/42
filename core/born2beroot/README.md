@@ -1,2 +1,2 @@
 # born2beroot
-In this peroject I have created a virtual machine.
+In this project I have created a virtual machine.
